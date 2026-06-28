@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".StudyPlannerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Study Planner"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subjectSpinner"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTask"
+        android:hint="Enter Task"
+        android:inputType="text"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddTask"
+        android:text="Add Task"
+        android:layout_marginTop="10dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/lvTasks"
+        android:layout_marginTop="10dp"/>
+    <RadioGroup
+        android:id="@+id/radioStudyMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/rbtnPomodoro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pomodoro"/>
+        <RadioButton
+            android:id="@+id/rbtnDeepStudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deep Study"/>
+        <RadioButton
+            android:id="@+id/rbtnQuickReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick Review"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Study Plan"
+        android:id="@+id/btnSave"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

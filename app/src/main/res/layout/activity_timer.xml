@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pomodoro Timer"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25:00"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"/>
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause Timer"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Timer"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Timer"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

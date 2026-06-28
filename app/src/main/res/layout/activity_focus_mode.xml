@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Focus Mode"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Focus"/>
+
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pomodoro Timer"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
